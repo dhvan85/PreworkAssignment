@@ -1,0 +1,7 @@
+E:\WebApplication1\PreworkAssignment\bin\Debug\PreworkAssignment.exe.config
+E:\WebApplication1\PreworkAssignment\bin\Debug\PreworkAssignment.exe
+E:\WebApplication1\PreworkAssignment\bin\Debug\PreworkAssignment.pdb
+E:\WebApplication1\PreworkAssignment\obj\Debug\PreworkAssignment.csprojAssemblyReference.cache
+E:\WebApplication1\PreworkAssignment\obj\Debug\PreworkAssignment.csproj.CoreCompileInputs.cache
+E:\WebApplication1\PreworkAssignment\obj\Debug\PreworkAssignment.exe
+E:\WebApplication1\PreworkAssignment\obj\Debug\PreworkAssignment.pdb
