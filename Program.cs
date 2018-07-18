@@ -10,8 +10,35 @@ namespace PreworkAssignment
     {
         public static void Main()
         {
-            var result = CheckPoint2(4);
-            PrintOut2DMatrix(result);
+            //var result = CheckPoint2(4);
+            //PrintOut2DMatrix(result);
+
+            var result = CheckPoint3(new[] { 2, 1, 4, 3, 2 }, 4);
+            Console.WriteLine(result);
+        }
+
+        public static int CheckPoint3(int[] a, int k)
+        {
+            var currentK = 0;
+            var currentValue = -1;
+
+            for (var i = 0; i < a.Length; i++)
+                if (currentK < k)
+                {
+                    if (a[i] >= currentValue)
+                    {
+                        currentValue = a[i];
+                        currentK++;
+                    }
+                    else
+                    {
+                        currentK++;
+                    }
+                }
+                else if (a[i] < currentValue)
+                    currentValue = a[i];
+
+            return currentValue;
         }
 
         public static int[,] CheckPoint2(int a)
